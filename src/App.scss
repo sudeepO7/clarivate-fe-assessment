@@ -1,0 +1,58 @@
+.app-container {
+    padding: 18px 60px 18px 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .page-title {
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .link-text {
+        text-align: right;
+        color: #1775ee;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
+
+.item-wrapper {
+    border: 1px solid green;
+    margin: 6px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .det-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        .thumbnail-img {
+            width: 40px;
+            height: 40px;
+        }
+        .item-det {
+            max-width: 532px;
+        }
+    }
+    .action-btn {
+        cursor: pointer;
+        background: transparent;
+        color: #1775ee;
+        border: 1px solid #888;
+        padding: 8px;
+        border-radius: 16px;
+    }
+    .action-btn.critical {
+        color: #dd2216;
+    }
+    .action-btn:hover {
+        border: 1px solid #1775ee;
+    }
+    .action-btn.critical:hover {
+        border: 1px solid #dd2216;
+    }
+}

@@ -1,0 +1,2 @@
+export const UPDATE_FAVORITES = 'UPDATE_FAVORITES';
+export const UPDATE_PAGE_DET = 'UPDATE_PAGE_DET';
