@@ -1,6 +1,11 @@
-import { createContext, useReducer, useEffect } from 'react'
+import { createContext, useReducer } from 'react'
 import Reducer from './Reducer'
 
+/**
+ * Initial state of the application
+ * favorites empty array
+ * page num 1 and page size 10
+ */
 const INITIAL_STATE = {
     favorites: [],
     pageDet: {

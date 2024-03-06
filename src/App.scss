@@ -10,13 +10,6 @@
         font-weight: 600;
         font-size: 20px;
     }
-    .link-text {
-        text-align: right;
-        color: #1775ee;
-        cursor: pointer;
-        font-weight: 500;
-        font-size: 16px;
-    }
 }
 
 .item-wrapper {
@@ -33,6 +26,7 @@
         .thumbnail-img {
             width: 40px;
             height: 40px;
+            border-radius: 4px;
         }
         .item-det {
             max-width: 532px;
@@ -55,4 +49,17 @@
     .action-btn.critical:hover {
         border: 1px solid #dd2216;
     }
+}
+
+.link-text {
+    text-align: right;
+    color: #1775ee;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sub-heading {
+    font-weight: 600;
+    font-size: 18px;
 }

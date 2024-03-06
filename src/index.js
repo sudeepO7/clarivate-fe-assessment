@@ -8,6 +8,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+/**
+ * Application is passed under the ErrorBoundary, Context Provider,
+ * And Browser Router
+ */
 root.render(
   <React.StrictMode>
     <ErrorBoundary>

@@ -1,9 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
-import { Dashboard } from './pages/Dashboard/Dashboard'
-import { List } from './pages/List/List'
+import { Dashboard } from './pages'
+import { List } from './pages'
 import './App.scss'
 
 function App() {
+  // Routes defined for Dashboard and List
   return (
     <div className="app-container">
       <Routes>
